@@ -43,9 +43,9 @@ public interface Query<T extends Query<?, ?>, U> {
      */
     List<U> list();
 
-    /**
-     * 分页查询
-     */
+//    /**
+//     * 分页查询
+//     */
 //    List<U> listPage(int firstResult, int maxResults);
 }
 
