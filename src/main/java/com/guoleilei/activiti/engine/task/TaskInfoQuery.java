@@ -15,13 +15,13 @@ public interface TaskInfoQuery<T extends TaskInfoQuery<?, ?>, V extends TaskInfo
     T taskId(String taskId);
 
 //    T taskName(String name);
-
-    /**
-     * 只筛选出名称在给定列表中的任务
-     *
-     * @throws ActivitiIllegalArgumentException
-     *           当传递的名称列表为空或为 null 或包含 null 字符串时抛异常
-     */
+//
+//    /**
+//     * 只筛选出名称在给定列表中的任务
+//     *
+//     * @throws ActivitiIllegalArgumentException
+//     *           当传递的名称列表为空或为 null 或包含 null 字符串时抛异常
+//     */
 //    T taskNameIn(List<String> nameList);
 
 

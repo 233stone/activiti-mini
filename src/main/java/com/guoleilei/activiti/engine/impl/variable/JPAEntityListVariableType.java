@@ -1,5 +1,7 @@
 package com.guoleilei.activiti.engine.impl.variable;
 
+import java.util.List;
+
 /**
  * Variable type capable of storing a list of reference to JPA-entities. Only JPA-Entities which are configured by annotations are supported. Use of compound primary keys is not supported. <br>
  * The variable value should be of type {@link List} and can only contain objects of the same type.

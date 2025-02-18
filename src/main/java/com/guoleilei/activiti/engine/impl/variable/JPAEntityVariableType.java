@@ -3,7 +3,6 @@ package com.guoleilei.activiti.engine.impl.variable;
 /**
  * Variable type capable of storing reference to JPA-entities. Only JPA-Entities which are configured by annotations are supported. Use of compound primary keys is not supported.
  *
-
  */
 public class JPAEntityVariableType implements VariableType {
 

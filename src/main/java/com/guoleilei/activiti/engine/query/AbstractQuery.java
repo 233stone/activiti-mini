@@ -103,7 +103,9 @@ public abstract class AbstractQuery<T extends Query<?, ?>, U> implements Command
     }
 
 
-    // 实现 {@link Command} 的方法
+    /**
+     * 实现 {@link Command#execute(CommandContext)} 方法
+     */
     @Override
     public Object execute(CommandContext commandContext) {
         if (resultType == ResultType.LIST) {
